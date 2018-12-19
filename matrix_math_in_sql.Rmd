@@ -1,0 +1,21 @@
+https://www.red-gate.com/simple-talk/sql/t-sql-programming/matrix-math-in-sql/
+
+例子简单可读。
+
+```{sql eval=F}
+UPDATE Foobar1
+SET element1 = 0, 
+    element2 = 0, 
+    element3 = 0, 
+    element4 = 0, 
+    element5 = 0;
+```
+
+这不是impala的写法
+
+>
+It is possible to do fancy matrix operations in SQL, but the code becomes so complex, and the execution time so long, that it is simply not worth the effort. However, multiplication and addition can be very handy, specially if the original data is kept in a matrix.
+>
+If a reader would like to submit queries for eigenvalues, inverses and determinants, I will be happy to put them in future editions of one of my books. But I do not want to use it in my real work.
+
+我觉得我可以放弃了。
